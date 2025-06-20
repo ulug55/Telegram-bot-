@@ -1,7 +1,7 @@
 from telegram.ext import Updater, CommandHandler
 import os
 
-BOT_TOKEN = os.getenv("8135642639:AAH0Vp2yoy5cKAdVCVpcw2BaQxegza8jBkY")
+BOT_TOKEN = os.getenv("BOT_TOKEN")
 
 def start(update, context):
     update.message.reply_text("Salom! kino kodini yozing🎬")
